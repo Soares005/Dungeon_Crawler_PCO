@@ -1,0 +1,20 @@
+dungeon-crawler/
+│
+├── main.py                 # Ponto de entrada (executa o jogo)
+├── config.py               # Constantes (FPS, cores, tamanho dos tiles, teclas)
+│
+├── jogo.py                 # Classe Jogo (Game Loop, Pygame, gestão de ecrãs)
+├── nivel.py                # Classe Nivel (matriz do mapa, colisão de paredes)
+├── hall_of_fame.py         # Classe HallOfFame (leitura e escrita do scores.txt)
+│
+├── entidade.py             # Classe base abstrata Entidade (HP, posição, mover)
+├── jogador.py              # Classe Player (herda de Entidade)
+├── inimigos.py             # Classes Enemy, Goblin e Esqueleto (herdam de Entidade)
+│
+├── assets/                 # Pasta com as imagens (.png) e sons (.wav)
+│   ├── player.png
+│   ├── goblin.png
+│   └── tiles/
+│
+├── README.md               # Instruções de instalação (pip install pygame)
+└── scores.txt              # Ficheiro de texto onde são gravados os recordes
