@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+save_data.json
+save_data.json.tmp
+save_data.corrupt.json
+crash.log
+.venv/
+venv/
